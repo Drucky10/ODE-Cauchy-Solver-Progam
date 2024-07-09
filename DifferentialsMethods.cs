@@ -1,5 +1,4 @@
 ﻿using System;
-using System.IO;
 
 
 namespace CauchyProblemSolve
@@ -7,11 +6,7 @@ namespace CauchyProblemSolve
     public class DifferentialsMethods
     {
 
-
-
         public DifferentialsMethods() { }
-
-
 
         public (double[], double[]) SolveEuler( double a, double b, double y0, int n, Func<double, double, double > f )
         {
