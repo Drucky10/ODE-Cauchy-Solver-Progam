@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CauchyProblemSolve
 {
@@ -10,8 +7,6 @@ namespace CauchyProblemSolve
     {
 
         public ListOfFunctions() { }
-
-
 
         public double f(double x, double y) { return (x + y) / Math.PI * Math.Exp(x); }
 
